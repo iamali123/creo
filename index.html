@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREO Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-white text-black font-sans">
+
+    <!-- Logo Section -->
+    <section id="logo" class="h-screen flex items-center justify-center p-5">
+        <h1 class="display-1 tracking-widest">créо</h1>
+    </section>
+
+    <!-- "What is Creo?" Section -->
+    <section id="what-is-creo" class="h-screen bg-black text-white flex items-center justify-center p-5">
+        <h2 class="display-2 font-bold">WHAT IS CREO?</h2>
+    </section>
+
+    <div id="text-sections">
+        <div id="line-animation-section" class="relative">
+            <div id="agency" class="h-screen flex items-center justify-center p-5">
+                <p class="text-7xl font-bold">We are not another 360 agency</p>
+            </div>
+            <div class="line" id="line"></div>
+            <div class="h-screen flex items-center bg-black text-white justify-center p-5 relative overflow-visible">
+                <p class="text-7xl font-bold">But rather a mindset</p>
+                <div class="line1" id="line1"></div>
+                <div class="line2" id="line2"></div>
+            </div>
+        </div>
+        <div class="h-screen flex items-center justify-center p-5 relative">
+            <div class="line3" id="line3"></div>
+            <p class="text-7xl font-bold">that will challenge you</p>
+        </div>
+        <div class="h-screen flex items-center justify-center border-black border-t-2 p-5">
+            <p class="text-7xl font-bold">To <span class="opacity-0" id="rethink-text">re</span>think</p>
+        </div>
+        <div id="line4-section"
+            class="h-screen flex flex-col items-center justify-center border-black border-t-2 p-5 relative">
+            <p class="text-3xl font-bold mb-2">Because</p>
+            <p class="text-7xl font-bold">Assimilating</p>
+            <div class="line4" id="line4"></div>
+        </div>
+        <div id="line5-section"
+            class="min-h-screen flex flex-col items-center justify-center border-black border-t-2 p-5 relative">
+            <p class="text-7xl font-bold mb-2">Leads to</p>
+            <p class="text-9xl font-bold transform rotate-90 rotate-text">Growth <br />
+                Thinking</p>
+            <div class="line5" id="line5"></div>
+        </div>
+    </div>
+    <div id="conclusion" class="h-screen flex flex-col items-center justify-center border-black border-t-2 p-5">
+        <p class="text-7xl font-bold">Rethinking requires CREO</p>
+        <div class="flex items-center gap-4 pt-36">
+            <a href="#" class="text-3xl font-bold">Explore </a>
+            <div class="flex flex-col gap-1">
+                <span class="bg-black w-8 h-1 rounded-sm block"></span>
+                <span class="bg-black w-8 h-1 rounded-sm block"></span>
+                <span class="bg-black w-8 h-1 rounded-sm block"></span>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-between items-center p-5">
+        <i class="fa-solid fa-angle-up text-gray-500 text-3xl"></i>
+        <p class="text-center p-5 text-gray-500">2024 © Creo Global. All Rights Reserved</p>
+        <i class="fa-solid fa-share-nodes text-gray-500 text-3xl"></i>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+        integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

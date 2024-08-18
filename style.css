@@ -1,0 +1,79 @@
+.display-1 {
+    font-size: 39vw;
+}
+
+.display-2 {
+    font-size: 12.6vw;
+}
+
+.rotate-text {
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.line {
+    width: 3px;
+    height: 0px;
+    background: linear-gradient(to bottom, black 50%, white 50%);
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+.line1 {
+    width: 0;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    transform: translateX(-50%);
+}
+
+.line2 {
+    width: 3px;
+    height: 0px;
+    background: linear-gradient(to bottom, white 50%, black 50%);
+    margin: 0 auto;
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    transform: rotate(38deg);
+}
+
+.line3 {
+    width: 0;
+    height: 3px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.line4 {
+    width: 80px;
+    height: 0px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.line5 {
+    width: 80px;
+    height: 0px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
